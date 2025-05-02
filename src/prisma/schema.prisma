@@ -1,9 +1,0 @@
-model City {
-  id                Int     @id @default(autoincrement())
-  name              String
-  costOfLivingIndex Float
-  crimeIndex        Float
-  medianIncome      Int
-  walkabilityScore  Int
-  averageTemperature Float
-}
